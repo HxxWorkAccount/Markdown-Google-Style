@@ -2,7 +2,7 @@
 
 This is wrote based on VSCode+MarkdownPreviewEnhanced.
 
-Most of code just copy from the source code of [here](https://developers.google.com/protocol-buffers)
+Most of code just copy the source code from [here](https://developers.google.com/protocol-buffers)
 
 ## Install
 
