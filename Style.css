@@ -1,0 +1,381 @@
+body[for="html-export"] {
+  background-color: rgb(231,233,236) !important;
+}
+
+.markdown-preview.markdown-preview {
+  background-color: rgb(255,255,255);
+  border-bottom-color: rgb(32,33,36);
+  border-bottom-color: rgb(32, 33, 36);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-left-color: rgb(32, 33, 36);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(32, 33, 36);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(32, 33, 36);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-sizing: border-box;
+  color: rgb(32, 33, 36);
+  display: block;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-weight: normal;
+  line-height: 24px;
+  max-width: 862px !important;
+  padding-bottom: 40px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  padding-top: 40px !important;
+  width: 862px;
+
+	h1 {
+    box-sizing: border-box;
+    color: rgb(32,32,36);
+    // display: inline;
+    font-family: 'Product Sans';
+    font-size: 32px;
+    font-stretch: normal;
+    font-weight: normal;
+    height: auto;
+    letter-spacing: normal;
+    line-height: 40px;
+    margin-bottom: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 48px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    width: auto;
+  }
+  h2 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: 'Product Sans';
+    font-size: 26px;
+    font-stretch: normal;
+    font-weight: normal;
+    height: auto;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 64px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    width: auto;
+  }
+  h3 {
+    box-sizing: border-box;
+    color: rgb(32,33,36);
+    // display: inline;
+    font-family: "Product Sans";
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: auto;
+    letter-spacing: normal;
+    // line-height: 28px;
+    margin-bottom: 14px;
+    margin-top: 32px;
+    padding-inline-end: 40px;
+    text-overflow: ellipsis;
+    width: auto;
+  }
+  h4 {
+    color: red;
+  }
+  h5 {
+    color: red;
+  }
+  h6 {
+    color: red;
+  }
+  
+  a {
+    color: rgb(26,115,232);
+  }
+
+  li {
+    box-sizing: border-box;
+    color: rgb(32, 33, 36);
+    display: list-item;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 12px;
+    text-align: left;
+  }
+
+  code {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(241,243,244);
+    background-origin: padding-box;
+    border-bottom-color: rgb(55,71,79);
+    border-left-color: rgb(55,71,79);
+    border-right-color: rgb(55,71,79);
+    border-top-color: rgb(55,71,79);
+    border-radius: 0px;
+    color: rgb(55,71,79);
+    direction: ltr;
+    display: inline;
+    font-family: 'Roboto Mono Medium for Powerline';
+    font-size: 14.333px;
+    font-stretch: normal;
+    font-weight: 500;
+    height: auto;
+    line-height: auto;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    text-align: left;
+    unicode-bidi: isolate;
+    width: auto;
+    word-break: break-word;
+  }
+
+  pre[data-role="codeBlock"] {
+    border-bottom-color: rgb(32, 33, 36);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-color: rgb(32, 33, 36);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(32, 33, 36);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(32, 33, 36);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(32, 33, 36);
+    direction: ltr;
+    display: block;
+    font-family: "Roboto Mono for Powerline";
+    font-size: 15px !important;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    line-height: 22px;
+    margin-bottom: 16px;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    // position: relative;
+    tab-size: 2;
+  }
+  pre[data-role="codeBlock"] code {
+    background-color: rgb(245,245,245);;
+  }
+
+  warning {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(254, 239, 227);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    box-sizing: border-box;
+    color: rgb(191, 54, 12);
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    // line-height: 24px;
+    margin-block-end: 16px;
+    margin-block-start: 16px;
+    margin-bottom: 16px;
+    margin-inline-end: -40px;
+    margin-inline-start: -40px;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+  }
+  warning p {
+    margin-bottom: 0px;
+  }
+  warning strong, warning p strong {
+    color: rgb(176,65,33);
+  }
+  
+  blockquote {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(227, 240, 254);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-left: none;
+    box-sizing: border-box;
+    color: rgb(12, 119, 191);
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    margin-block-end: 16px;
+    margin-block-start: 16px;
+    margin-bottom: 16px;
+    margin-inline-end: -40px;
+    margin-inline-start: -40px;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+  }
+  blockquote p {
+    display: inline;
+    margin-bottom: 0px;
+  }
+  blockquote p strong {
+    color: rgb(46, 113, 168);
+  }
+
+  details {
+    background-attachment: scroll;
+    background-clip: border-box;
+    // background-color: rgb(255,255,255);
+    background-color: rgb(220, 245, 210);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-left: none;
+    box-sizing: border-box;
+    color: rgb(0, 68, 0);
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    margin-block-end: 16px;
+    margin-block-start: 16px;
+    margin-bottom: 16px;
+    margin-inline-end: -40px;
+    margin-inline-start: -40px;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+
+    margin-top: 10px;
+    border: 2px dashed rgb(66, 66, 66);
+    border-left: none;
+    border-right: none;
+  }
+  details strong, details summary strong {
+    font-weight: bold;
+    color: darkgreen;
+  }
+  details summary::marker {
+    content: "";
+  }
+  details summary:after {
+    content: " ... (Click to Open)";
+  }
+  details[open] summary:after {
+    content: "";
+  }
+  
+  span[class="katex-display"] {
+    margin-bottom: 0px;
+  }
+  span[class="mord cjk_fallback"] {
+    font-size: 18px;
+    font-family: 'Songti SC';
+  }
+  span[class="mord cjk_fallback"]:before {
+    content: " ";
+  }
+  span[class="mord cjk_fallback"]:after {
+    content: " ";
+  }
+  
+  div[class="image"] img {
+    width: 45%;
+  }
+  
+  sup[class="footnote-ref"] {
+    font-size: 11px;
+    font-family: 'Monaco', 'PingFang SC';
+  }
+  
+  .katex {
+    font-size: 20px;
+  }
+  
+  h3:before {
+    content: "| ";
+  }
+  h3:after {
+    content: " |";
+  }
+
+  @media print {
+    font-size: 16px;
+  }
+}
+
+
