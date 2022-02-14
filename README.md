@@ -12,7 +12,7 @@ Both of them are easy to get from the internet.
 Then open VSCode:
 1. cmd+shift+p
 2. Enter "Custom CSS"
-3. Replace text
+3. Replace origin text with Style.css
 
 ## Illustration
 ![pic1](./pic1.png)
