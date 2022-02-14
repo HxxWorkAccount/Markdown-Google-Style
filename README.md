@@ -1,6 +1,6 @@
 # Markdown-CustomCSS-GoogleStyle
 
-This is wrote based on VSCode+MarkdownPreviewEhanced.
+This is wrote based on VSCode+MarkdownPreviewEnhanced.
 
 Most of code just copy from the source code of [here](https://developers.google.com/protocol-buffers)
 
