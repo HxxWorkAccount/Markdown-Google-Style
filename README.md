@@ -15,5 +15,4 @@ Then open VSCode:
 3. Replace text
 
 ## Illustration
-![ill1](./ill1.png)
-![ill2](./ill2.png)
+
