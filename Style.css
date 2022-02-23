@@ -25,7 +25,8 @@ body[for="html-export"] {
   box-sizing: border-box;
   color: rgb(32, 33, 36);
   display: block;
-  font-family: "Roboto";
+  // font-family: "Roboto";
+  font-family: "Lato";
   font-size: 16px;
   font-stretch: normal;
   font-style: normal;
@@ -69,7 +70,7 @@ body[for="html-export"] {
     font-weight: normal;
     height: auto;
     letter-spacing: normal;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 64px;
@@ -92,19 +93,25 @@ body[for="html-export"] {
     letter-spacing: normal;
     // line-height: 28px;
     margin-bottom: 14px;
-    margin-top: 32px;
+    margin-top: 36px;
     padding-inline-end: 40px;
     text-overflow: ellipsis;
     width: auto;
   }
   h4 {
+    font-family: 'Product Sans';
     color: red;
   }
   h5 {
+    font-family: 'Product Sans';
     color: red;
   }
   h6 {
+    font-family: 'Product Sans';
     color: red;
+  }
+  p {
+    margin-bottom: 14px;
   }
   
   a {
@@ -123,6 +130,14 @@ body[for="html-export"] {
     margin-right: 0px;
     margin-top: 12px;
     text-align: left;
+  }
+  td {
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  img {
+    margin-bottom: 16px;
   }
 
   code {
@@ -149,9 +164,10 @@ body[for="html-export"] {
     padding-bottom: 1px;
     padding-top: 1px;
     text-align: left;
+    tab-size: 2;
     unicode-bidi: isolate;
     width: auto;
-    word-break: break-word;
+    word-break: break-all;
   }
 
   pre[data-role="codeBlock"] {
@@ -194,6 +210,9 @@ body[for="html-export"] {
   }
   pre[data-role="codeBlock"] code {
     background-color: rgb(245,245,245);;
+    font-family: "Roboto Mono for Powerline";
+    font-size: 15px !important;
+    tab-size: 2;
   }
 
   warning {
@@ -254,7 +273,7 @@ body[for="html-export"] {
     border-top-right-radius: 0px;
     border-left: none;
     box-sizing: border-box;
-    color: rgb(12, 119, 191);
+    color: rgb(25, 139, 214);
     display: block;
     font-family: "Roboto";
     font-size: 16px;
@@ -280,14 +299,13 @@ body[for="html-export"] {
     margin-bottom: 0px;
   }
   blockquote p strong {
-    color: rgb(46, 113, 168);
+    color: rgb(25, 115, 189);
   }
 
   details {
     background-attachment: scroll;
     background-clip: border-box;
-    // background-color: rgb(255,255,255);
-    background-color: rgb(220, 245, 210);
+    background-color: rgb(225, 250, 216) !important;
     background-image: none;
     background-origin: padding-box;
     background-position-x: 0%;
@@ -299,7 +317,7 @@ body[for="html-export"] {
     border-top-right-radius: 0px;
     border-left: none;
     box-sizing: border-box;
-    color: rgb(0, 68, 0);
+    color: rgb(0, 87, 0) !important;
     display: block;
     font-family: "Roboto";
     font-size: 16px;
@@ -325,6 +343,9 @@ body[for="html-export"] {
     border-left: none;
     border-right: none;
   }
+  details ul, details li {
+    color: rgb(0, 68, 0) !important;
+  }
   details strong, details summary strong {
     font-weight: bold;
     color: darkgreen;
@@ -337,6 +358,9 @@ body[for="html-export"] {
   }
   details[open] summary:after {
     content: "";
+  }
+  details[open] summary {
+    margin-bottom: 12px;
   }
   
   span[class="katex-display"] {
@@ -351,10 +375,6 @@ body[for="html-export"] {
   }
   span[class="mord cjk_fallback"]:after {
     content: " ";
-  }
-  
-  div[class="image"] img {
-    width: 45%;
   }
   
   sup[class="footnote-ref"] {
@@ -377,5 +397,3 @@ body[for="html-export"] {
     font-size: 16px;
   }
 }
-
-
