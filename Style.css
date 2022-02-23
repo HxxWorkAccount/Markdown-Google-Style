@@ -167,7 +167,8 @@ body[for="html-export"] {
     tab-size: 2;
     unicode-bidi: isolate;
     width: auto;
-    word-break: break-all;
+    word-break: normal;
+    word-wrap: normal;
   }
 
   pre[data-role="codeBlock"] {
@@ -213,6 +214,10 @@ body[for="html-export"] {
     font-family: "Roboto Mono for Powerline";
     font-size: 15px !important;
     tab-size: 2;
+  }
+  ul ol pre[data-role="codeBlock"],
+  ul li pre[data-role="codeBlock"] {
+    margin-right: 0px !important;
   }
 
   warning {
