@@ -40,7 +40,7 @@ body[for="html-export"] {
   padding-top: 40px !important;
   width: 862px;
 
-	h1 {
+  h1 {
     box-sizing: border-box;
     color: rgb(32,32,36);
     // display: inline;
@@ -217,6 +217,8 @@ body[for="html-export"] {
   }
   ul ol pre[data-role="codeBlock"],
   ul li pre[data-role="codeBlock"] {
+    padding-left: 32px !important;
+    margin-left: -32px !important;
     margin-right: 0px !important;
   }
 
@@ -262,6 +264,12 @@ body[for="html-export"] {
   warning strong, warning p strong {
     color: rgb(176,65,33);
   }
+  ul ol warning,
+  ul li warning {
+    padding-left: 32px !important;
+    margin-left: -32px !important;
+    margin-right: 0px !important;
+  }
   
   blockquote {
     background-attachment: scroll;
@@ -305,6 +313,12 @@ body[for="html-export"] {
   }
   blockquote p strong {
     color: rgb(25, 115, 189);
+  }
+  ul ol blockquote,
+  ul li blockquote {
+    padding-left: 32px !important;
+    margin-left: -32px !important;
+    margin-right: 0px !important;
   }
 
   details {
@@ -366,6 +380,12 @@ body[for="html-export"] {
   }
   details[open] summary {
     margin-bottom: 12px;
+  }
+  ul ol details,
+  ul li details {
+    padding-left: 32px !important;
+    margin-left: -32px !important;
+    margin-right: 0px !important;
   }
   
   span[class="katex-display"] {
