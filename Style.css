@@ -92,7 +92,7 @@ body[for="html-export"] {
     height: auto;
     letter-spacing: normal;
     // line-height: 28px;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
     margin-top: 36px;
     padding-inline-end: 40px;
     text-overflow: ellipsis;
@@ -117,12 +117,13 @@ body[for="html-export"] {
   a {
     color: rgb(26,115,232);
   }
-
+  ul, ol {
+    margin-bottom: 24px;
+  }
   li {
     box-sizing: border-box;
     color: rgb(32, 33, 36);
     display: list-item;
-    font-family: "Roboto";
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 12px;
@@ -137,7 +138,10 @@ body[for="html-export"] {
   }
 
   img {
-    margin-bottom: 16px;
+    margin-top: 14px;
+    margin-bottom: 32px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
   }
 
   code {
@@ -164,7 +168,7 @@ body[for="html-export"] {
     padding-bottom: 1px;
     padding-top: 1px;
     text-align: left;
-    tab-size: 2;
+    tab-size: 4;
     unicode-bidi: isolate;
     width: auto;
     word-break: normal;
@@ -207,13 +211,13 @@ body[for="html-export"] {
     padding-left: 40px;
     padding-right: 40px;
     // position: relative;
-    tab-size: 2;
+    tab-size: 4;
   }
   pre[data-role="codeBlock"] code {
     background-color: rgb(245,245,245);;
     font-family: "Roboto Mono for Powerline";
     font-size: 15px !important;
-    tab-size: 2;
+    tab-size: 4;
   }
   li pre[data-role="codeBlock"] {
     padding-left: 32px !important;
