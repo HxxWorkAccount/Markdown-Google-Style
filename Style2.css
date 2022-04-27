@@ -134,7 +134,7 @@ body[for="html-export"] {
 
   mark {
     background-color: rgb(254, 216, 234);
-    // background-color: rgb(255, 255, 132);
+    // background-color: rgb(242, 242, 53);
   }
 
   a {
@@ -195,6 +195,14 @@ body[for="html-export"] {
     content: " ";
   }
 
+  li blockquote,
+  li .warning,
+  li pre[data-role="codeBlock"] {
+    padding-left: 32px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
   code {
     background-attachment: scroll;
     background-clip: border-box;
@@ -207,7 +215,7 @@ body[for="html-export"] {
     border-top-color: rgb(55, 71, 79);
     // border-style: solid !important;
     // border-width: 1px;
-    border-radius: 5px;
+    border-radius: 0px;
     // color: rgb(55, 71, 79);
     color: rgb(37, 41, 46);
     direction: ltr;
@@ -290,13 +298,7 @@ body[for="html-export"] {
     tab-size: 4;
   }
 
-  li pre[data-role="codeBlock"] {
-    padding-left: 32px !important;
-    margin-left: -32px !important;
-    margin-right: 0px !important;
-  }
-
-  warning {
+  .warning {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: rgb(254, 239, 227);
@@ -309,17 +311,16 @@ body[for="html-export"] {
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+    border-left: none;
     box-sizing: border-box;
     color: rgb(191, 54, 12);
     display: block;
     font-family: "PingFang SC" !important;
-    // font-family: "Biryani" !important;
     font-size: 16px;
     font-stretch: normal;
     font-style: normal;
     font-variant-caps: normal;
     font-weight: normal;
-    // line-height: 24px;
     margin-block-end: 16px;
     margin-block-start: 16px;
     margin-bottom: 16px;
@@ -336,25 +337,17 @@ body[for="html-export"] {
     word-spacing: normal;
   }
 
-  warning p {
+  .warning p {
     font-family: "PingFang SC" !important;
-    // font-family: "Biryani" !important;
-    margin-bottom: 0px;
+    margin: 0px !important;
     word-spacing: normal;
   }
 
-  warning strong,
-  warning p strong {
+  .warning strong,
+  .warning p strong {
     font-family: "PingFang SC" !important;
-    // font-family: "Biryani" !important;
     color: rgb(176, 65, 33);
     word-spacing: normal;
-  }
-
-  li warning {
-    padding-left: 32px !important;
-    margin-left: -32px !important;
-    margin-right: 0px !important;
   }
 
   blockquote {
@@ -375,7 +368,6 @@ body[for="html-export"] {
     color: rgb(25, 139, 214);
     display: block;
     font-family: "PingFang SC" !important;
-    // font-family: "Biryani" !important;
     font-size: 16px;
     font-stretch: normal;
     font-style: normal;
@@ -399,23 +391,15 @@ body[for="html-export"] {
 
   blockquote p {
     display: inline;
-    // font-family: "Biryani" !important;
     font-family: "PingFang SC" !important;
     margin-bottom: 0px;
     word-spacing: normal;
   }
 
   blockquote p strong {
-    // font-family: "Biryani" !important;
     font-family: "PingFang SC" !important;
     color: rgb(25, 115, 189);
     word-spacing: normal;
-  }
-
-  li blockquote {
-    padding-left: 32px !important;
-    margin-left: -32px !important;
-    margin-right: 0px !important;
   }
 
   details {
@@ -424,10 +408,10 @@ body[for="html-export"] {
     border-color: black !important;
     box-sizing: border-box;
     color: black !important;
-    margin: 16px 0px 0px 0px !important;
+    margin: 8px 0px 0px 0px !important;
     padding: 0px 0px 22px 0px;
     word-spacing: normal;
-    white-space: nowrap;
+    word-spacing: normal;
   }
 
   details summary {
@@ -446,6 +430,8 @@ body[for="html-export"] {
   details[open] {
     overflow: auto;
     padding: 0px 12px 12px 12px !important;
+    word-wrap: normal;
+    word-break: normal;
   }
 
   details[open] summary {
@@ -466,11 +452,6 @@ body[for="html-export"] {
 
   details[open] summary:after {
     content: "";
-  }
-
-  details[open] summary {
-    padding-bottom: 2px;
-    margin-bottom: 12px;
   }
 
   details strong,
