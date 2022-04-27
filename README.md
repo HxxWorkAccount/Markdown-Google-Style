@@ -14,6 +14,8 @@ Then open VSCode:
 2. Enter "Custom CSS"
 3. Replace origin text with Style.css
 
+> Style2.css is an optimized version which I'm using.
+
 ## Feature
 - Custom Head1, Head2, Head3.
 - Limit width to 862px.
