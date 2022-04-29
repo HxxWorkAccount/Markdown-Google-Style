@@ -70,7 +70,7 @@ body[for="html-export"] {
     font-weight: normal;
     height: auto;
     letter-spacing: normal;
-    margin: 82px 0px -8px 0px;
+    margin: 100px 0px -8px 0px;
     overflow-x: hidden;
     overflow-y: hidden;
     text-overflow: ellipsis;
@@ -179,8 +179,9 @@ body[for="html-export"] {
     font-size: 20px;
   }
 
+  span[class="katex"],
   span[class="katex-display"] {
-    margin: 16px 0px 0px 0px;
+    margin: 16px 0px 0px 0px !important;
   }
 
   span[class="mord cjk_fallback"] {
@@ -407,8 +408,8 @@ body[for="html-export"] {
     border-style: solid !important;
     border-color: black !important;
     box-sizing: border-box;
-    color: black !important;
-    margin: 8px 0px 0px 0px !important;
+    color: black;
+    margin: 16px 0px 0px 0px !important;
     padding: 0px 0px 22px 0px;
     word-spacing: normal;
     word-spacing: normal;
@@ -419,27 +420,37 @@ body[for="html-export"] {
     color: white;
     font-size: 16px;
     font-family: 'PingFang SC' !important;
-    position: absolute;
-    width: calc(100% - 87px);
     line-height: 22px;
-    margin: 0 0 0 0;
-    padding: 0px 0px 0px 4px;
+    margin: 0 0 0 0px;
+    position: absolute;
+    padding: 0 0 0 3px;
+    overflow: hidden;
+    width: calc(100% - 85px);
     word-spacing: normal;
   }
 
   details[open] {
     overflow: auto;
-    padding: 0px 12px 12px 12px !important;
+    padding: 20px 12px 12px 12px !important;
     word-wrap: normal;
     word-break: normal;
   }
 
   details[open] summary {
-    margin: 0px 0px 0px -12px;
+    overflow: hidden;
+    margin: -20px 0px 0px -12px !important;
+    padding-bottom: 0.35mm;
   }
 
   li details summary {
-    width: calc(100% - 119px) !important; // FUCK!
+    width: calc(100% - 117px) !important;
+  }
+
+  ul li ul li details summary,
+  ul li ol li details summary,
+  ol li ul li details summary,
+  ol li ol li details summary {
+    width: calc(100% - 149px) !important;
   }
 
   details summary::marker {
@@ -458,7 +469,11 @@ body[for="html-export"] {
   details summary strong,
   details ul,
   details li {
-    color: black !important;
+    color: black;
+  }
+
+  summary strong {
+    color: white !important;
   }
 
   @media print {
