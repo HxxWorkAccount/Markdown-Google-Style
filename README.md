@@ -21,7 +21,7 @@ Then open VSCode:
 ## Feature
 - Custom Header1, Header2, Header3.
 - Limit width to 862px and add shadow to whole page.
-- Rounded images and shadows, and you can add figure name like this:
+- Rounded border and shadow for images, and you can add figure name like this:
   ```
   <div align=center class=img><img src="img url" style="zoom:60%"></br>figure name</div>
   ```
